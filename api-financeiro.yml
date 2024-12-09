@@ -1,8 +1,0 @@
-
-spring:
-  datasource: 
-    url: jdbc:mysql://localhost/jpa_example
-    username: root
-    driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
