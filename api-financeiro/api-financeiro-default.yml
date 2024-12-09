@@ -21,4 +21,4 @@ management:
       exposure:
         include: '*'
 app:
-  teste: 'cba'
+  teste: 'abc'
