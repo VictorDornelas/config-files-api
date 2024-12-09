@@ -6,7 +6,7 @@ spring:
     password: 123!@#123
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
-    database-platform: org.hibernate.dialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
 eureka:
   client:
     serviceUrl:
