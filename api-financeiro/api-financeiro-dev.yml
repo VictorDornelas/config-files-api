@@ -1,8 +1,9 @@
 
 spring:
   datasource: 
-    url: jdbc:mysql://localhost/jpa_example
-    username: root
+    url: jdbc:mysql://localhost:3306/financeiro
+    username: usr_financeiro
+    password: 123!@#123
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
