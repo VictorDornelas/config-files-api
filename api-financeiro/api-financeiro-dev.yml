@@ -12,6 +12,28 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+  security:
+    oauth2:
+      client:
+        registration:
+          external:
+            client-name: external-client
+            client-secret: XkkkYFoinBQKdjBB1H1WJx2k3BUDn1aR
+            client-id: external-client
+            scope: openid,offline_access,profile
+            authorization-grant-type: authorization_code
+            provider: external
+        provider:
+          external:
+            issuer-uri: http://localhost:9999/realms/coddefy
+logging:
+  level:
+    org:
+      springframework:
+        security: INFO
+  pattern:
+    console: '%d{dd-MM-yyyy HH:mm:ss} %magenta([%thread]) %highlight(%-5level) %logger.%M
+      - %msg%n'
 eureka:
   client:
     serviceUrl:
