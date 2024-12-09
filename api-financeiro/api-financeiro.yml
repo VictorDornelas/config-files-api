@@ -13,6 +13,9 @@ eureka:
   instance:
     preferIpAddress: true
 management:
+  endpoint:
+    refresh:
+      access: unrestricted
   endpoints:
     web:
       exposure:
