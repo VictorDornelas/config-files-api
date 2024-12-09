@@ -13,7 +13,10 @@ eureka:
   instance:
     preferIpAddress: true
 management:
- endpoints:
-   web:
-     exposure:
-       include: "health,info,refresh"
+  endpoint:
+    restart:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
