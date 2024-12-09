@@ -4,7 +4,7 @@ spring:
     url: jdbc:mysql://localhost:3306/financeiro
     username: usr_financeiro
     password: 123!@#123
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     database: mysql
