@@ -18,7 +18,7 @@ spring:
         registration:
           external:
             client-name: external-client
-            client-secret: XkkkYFoinBQKdjBB1H1WJx2k3BUDn1aRRasasasas
+            client-secret: XkkkYFoinBQKdjBB1H1WJx2k3BUDn1aR
             client-id: external-client
             scope: openid,offline_access,profile
             authorization-grant-type: authorization_code
