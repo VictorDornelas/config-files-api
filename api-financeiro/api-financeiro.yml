@@ -13,12 +13,7 @@ eureka:
   instance:
     preferIpAddress: true
 management:
-  endpoint:
-    refresh:
-      access: unrestricted
-    health:
-      access: none
   endpoints:
     web:
       exposure:
-        include: 'health'
+        include: 'health,refresh'
