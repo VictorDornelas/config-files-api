@@ -4,7 +4,7 @@ app:
     realm: coddefy
     coddefy:
       client: api-financeiro
-      secret: JzhASDIYuwcnlYnIQo3xggII2oMm2itF
+      secret: kPigBhcg7NdXrdmDTuCikBZYMlrxiwe3
     
 spring:
   datasource: 
