@@ -2,7 +2,7 @@ app:
   keycloak:
     base-url: http://localhost:9999
     realm: coddefy
-    gfesp:
+    coddefy:
       client: api-financeiro
       secret: JzhASDIYuwcnlYnIQo3xggII2oMm2itF
     
@@ -52,8 +52,8 @@ springdoc:
     tagsSorter: alpha
     path: /docs
     oauth:
-      clientId: ${app.keycloak.gfesp.client}
-      client-secret: ${app.keycloak.gfesp.secret}
+      clientId: ${app.keycloak.coddefy.client}
+      client-secret: ${app.keycloak.coddefy.secret}
       
 documentation:
   oauth2:
