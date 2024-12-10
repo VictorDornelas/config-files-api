@@ -5,7 +5,6 @@ app:
     gfesp:
       client: api-financeiro
       secret: JzhASDIYuwcnlYnIQo3xggII2oMm2itF
-    enabled: 'true'
     
 spring:
   datasource: 
