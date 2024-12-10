@@ -4,6 +4,7 @@ app:
     realm: coddefy
     gfesp:
       client: api-financeiro
+      secret: JzhASDIYuwcnlYnIQo3xggII2oMm2itF
     enabled: 'true'
     
 spring:
@@ -53,6 +54,7 @@ springdoc:
     path: /docs
     oauth:
       clientId: ${app.keycloak.gfesp.client}
+      client-secret: ${app.keycloak.gfesp.secret}
       
 documentation:
   oauth2:
